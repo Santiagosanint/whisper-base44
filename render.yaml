@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: whisper-base44
+    env: docker
+    buildCommand: ""
+    startCommand: bash run_whisper.sh
